@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Page</title>
+    <link rel="stylesheet" href="task3R.css">
+</head>
+<body>
+
+    <header>
+        <h1>Random Quiz And Joke Generator</h1>
+    </header>
+
+    <section id="quiz" class="card">
+        <h2>Quiz</h2>
+        <p id="question">What is 2 + 2?</p>
+        <div class="button-group">
+            <button onclick="checkAnswer(3)">3</button>
+            <button onclick="checkAnswer(4)">4</button>
+            <button onclick="checkAnswer(5)">5</button>
+        </div>
+        <p id="result"></p>
+    </section>
+
+    <section id="api" class="card">
+        <h2>Random Joke</h2>
+        <button onclick="getJoke()">Get Joke</button>
+        <p id="joke"></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Interactive Web</p>
+    </footer>
+    <div class="bottom-left">Task 3 @apex planet Abdullah</div>
+
+    <script src="task3R.js"></script>
+</body>
+</html>
